@@ -1,4 +1,4 @@
-export interface TreeState {
+export interface SourceState {
   source: string;
 }
 
@@ -9,4 +9,4 @@ interface UpdateSourceAction {
   source: string;
 }
 
-export type TreeActionTypes = UpdateSourceAction;
+export type SourceActionTypes = UpdateSourceAction;
